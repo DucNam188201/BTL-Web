@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+/* Home Page */
+.main{
+    height: 100%;
+    background: url("/LogIn/assess/img/imgtext4.jpg") top center / cover  no-repeat ;
+}
+
+
+.box-login{
+    position: absolute;
+    width: 600px;
+    background-color: #fff;
+    top:0;
+    right: 0;
+    height: 100%; 
+    padding: 30px; 
+}
+
+.box-main{
+    padding: 0 16px;
+}
+
+.head-img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* .box-body{
+
+} */
+
+.box-body .input-log{
+    height: 65px;
+    border: 1px solid rgba(0,0, 0, 0.1);
+    padding: 10px 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.box-body .input-log:first-child{
+    margin-bottom: 30px;
+}
+
+.box-ip{
+    display: flex;
+}
+
+.icon-inp{
+    font-size: 28px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 6px;
+    color: rgba(0,0, 0, 0.5);
+
+}
+
+.input-acc{
+    line-height: 28px;
+    font-size: 23px;
+    padding: 8px 20px 0px 30px;
+    width: 100%;
+    border: none; 
+    outline: none;
+    color: rgba(0,0, 0, 0.7);
+}
+
+.foget-pass{
+    font-size: 1.6rem;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.foget-pass a{
+    color: rgba(0,0, 0, 0.5);
+    text-decoration: none;
+}
+
+.foget-pass a:hover{
+    color: rgba(0,0, 0, 0.7);
+    text-decoration: underline ;
+}
+
+.button-log .bttn__login{
+    color: #fff;
+    margin: 30px 0 15px 0;
+    width: 100%;
+    line-height: 65px;
+    font-size: 1.9rem;
+    border-radius: 6px;
+    background-color: #0642cd;
+    border: none;
+    box-shadow: 0 0 10px rgba(6,66, 205, 0.6);
+}
+
+.button-log .bttn__login:hover{
+    background-color:#00309f ;
+}
+
+.memori-pass{
+    text-align: right;
+    font-size: 1.8rem;
+}
+
+.memori-pass .memori {
+    width: 50px;
+}
+
+.img__foot{
+    width: 100%;
+}
+
+/* End home page */
